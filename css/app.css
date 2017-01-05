@@ -1,0 +1,109 @@
+body {
+    background-color: cornflowerblue;
+    font-family: 'Audiowide', sans-serif;
+    color: #fff;
+}
+header {
+    text-align: center;   
+}
+h1 {
+    font-family: 'Audiowide', sans-serif;
+    -webkit-text-shadow: 1px 1px 2px #000; 
+    -moz-text-shadow: 1px 1px 2px #000; 
+    -ms-text-shadow: 1px 1px 2px #000; 
+    text-shadow: 1px 1px 2px #000; 
+    margin-top: 0.75rem;
+    margin-bottom: 0;
+}
+h1 > span {
+    color: #333;
+    -webkit-text-shadow: 1px 1px 2px #fff; 
+    -moz-text-shadow: 1px 1px 2px #fff; 
+    -ms-text-shadow: 1px 1px 2px #fff; 
+    text-shadow: 1px 1px 2px #fff; 
+}
+hr {
+    margin: 0.75rem auto;   
+}
+.piano {
+    position: relative;
+    width: 75%;
+    height: 60%;
+    margin: 2rem auto;
+    cursor: pointer;
+}
+@media only screen and (max-width: 40em) { 
+    .piano {
+        width: 90%;
+    }   
+}
+.major-key {
+    background-color: #fff;
+    width: 7.142857%;
+    height: 100%;
+    float: left;
+    border: 1px solid #000;
+    -webkit-box-shadow: 0px 0px 8px #000 inset;
+    -moz-box-shadow: 0px 0px 8px #000 inset;
+    -ms-box-shadow: 0px 0px 8px #000 inset;
+    box-shadow: 0px 0px 8px #000 inset;
+}
+.sharp-key {
+    background-color: #222;
+    width: 5%;
+    height: 75%;
+    z-index: 9999;
+    position: absolute;
+    border: 1px solid #000;
+    -webkit-box-shadow: 0px 0px 25px #000 inset;
+    -moz-box-shadow: 0px 0px 25px #000 inset;
+    -ms-box-shadow: 0px 0px 25px #000 inset;
+    box-shadow: 0px 0px 25px #000 inset;
+}
+.major-key, .sharp-key {
+    -webkit-border-bottom-left-radius: 6px;
+    -moz-border-bottom-left-radius: 6px;
+    -ms-border-bottom-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    -webkit-border-bottom-right-radius: 6px;
+    -moz-border-bottom-right-radius: 6px;
+    -ms-border-bottom-right-radius: 6px;
+    border-bottom-right-radius: 6px;   
+}
+#note2s {
+    margin-left: 4.6%;  
+}
+#note4s {
+    margin-left: 11.8%;  
+}
+#note7s {
+    margin-left: 26.1%; 
+}
+#note9s {
+    margin-left: 33.25%;  
+}
+#note11s {
+    margin-left: 40.4%;  
+}
+#note2o {
+    margin-left: 54.6%;  
+}
+#note4o {
+    margin-left: 61.8%;  
+}
+#note7o {
+    margin-left: 76.1%;  
+}
+#note9o {
+    margin-left: 83.25%;  
+}
+#note11o {
+    margin-left: 90.3%;  
+}
+footer {
+    padding: 0.9375em;
+    text-align: center;
+}
+footer > span {
+    color: #333;
+}
