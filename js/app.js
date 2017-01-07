@@ -201,7 +201,7 @@ window.addEventListener("load", function() {
             urls: ["audio/"+note+".mp3"],
             onplay: function() {
                 //Make the respective note appear like its clicked
-                document.querySelector("#"+note).style.backgroundColor.createLinearGradient("90deg, #aaa, #666");
+                document.querySelector("#"+note).style.background = "linear-gradient(to top, #555, #ccc)";
             },
             onend: function() {
                 //Reset the respective note to appear like its not clicked
