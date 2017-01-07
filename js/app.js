@@ -208,9 +208,9 @@ window.addEventListener("load", function() {
                 if (note == "note2s" || note == "note2o" || note == "note4s" || note == "note4o" || 
                     note == "note7s" || note == "note7o" || note == "note9s" || note == "note9o" ||
                     note == "note11s" || note == "note11o") {
-                    document.querySelector("#"+note).style.backgroundColor = "#222";
+                    document.querySelector("#"+note).style.background = "#222";
                 } else {
-                    document.querySelector("#"+note).style.backgroundColor = "#fff";
+                    document.querySelector("#"+note).style.background = "#fff";
                 }
             }
         }).play();
