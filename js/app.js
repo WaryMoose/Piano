@@ -206,7 +206,7 @@ window.addEventListener("load", function() {
                     note == "note11s" || note == "note11o") {
                     document.querySelector("#"+note).style.background = "linear-gradient(to top, #ccc, #444)";
                 } else {
-                    document.querySelector("#"+note).style.background = "linear-gradient(to top, #444, #ccc)";
+                    document.querySelector("#"+note).style.background = "linear-gradient(to top, #777, #ccc)";
                 }
             },
             onend: function() {
