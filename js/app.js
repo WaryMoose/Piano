@@ -201,7 +201,13 @@ window.addEventListener("load", function() {
             urls: ["audio/"+note+".mp3"],
             onplay: function() {
                 //Make the respective note appear like its clicked
-                document.querySelector("#"+note).style.background = "linear-gradient(to top, #555, #ccc)";
+                if (note == "note2s" || note == "note2o" || note == "note4s" || note == "note4o" || 
+                    note == "note7s" || note == "note7o" || note == "note9s" || note == "note9o" ||
+                    note == "note11s" || note == "note11o") {
+                    document.querySelector("#"+note).style.background = "linear-gradient(to top, #ccc, #444)";
+                } else {
+                    document.querySelector("#"+note).style.background = "linear-gradient(to top, #444, #ccc)";
+                }
             },
             onend: function() {
                 //Reset the respective note to appear like its not clicked
